@@ -1,4 +1,4 @@
-package com.example.springdemorhr.repository2;
+package cz.expertkom.ju.springdemo.repository;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class Testovaci {
 	
 	public void test () {
-		System.out.println("Hello world");
+		System.out.println("Hello world from other Project!");
 	} 
 
 }
