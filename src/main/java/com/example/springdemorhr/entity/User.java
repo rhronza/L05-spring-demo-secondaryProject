@@ -38,5 +38,11 @@ public class User {
 	}
 	
 	
+	public void initUser(String username, String firstname, String lastname) {
+		this.username=username;
+		this.firstname=firstname;
+		this.lastname=lastname;
+	}
+	
 
 }

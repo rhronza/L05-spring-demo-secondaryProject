@@ -23,18 +23,19 @@ public class UserRepositoryImpl implements UserRepository {
 	public void serRepositoryImpl() {
 		
 		
-		System.out.println("\n\nStart inicializace....");
+		System.out.println("\n\nStart inicializace seznamu uživatelů....");
 		
 		/*vytvoření seznamu uživatelů */
-		User u1 = new User();
-		u1.setUsername("karel"); u1.setFirstname("Karel"); u1.setLastname("Novak");
-		this.listOfUsers.add(u1);
-		User u2 = new User();
+		User u1 = new User(); u1.initUser ("karel", "Karel", "Novak");this.listOfUsers.add(u1);
+		User u2 = new User(); u2.initUser ("larry", "Larry", "Allison");this.listOfUsers.add(u2);
+		User u3 = new User(); u3.initUser ("rudolf", "Rudolf", "Druhy");this.listOfUsers.add(u3);
+		/*User u2 = new User();
 		u2.setUsername("larry"); u2.setFirstname("Larry"); u2.setLastname("Allison");
 		this.listOfUsers.add(u2);
 		User u3 = new User();
 		u3.setUsername("rudolf"); u3.setFirstname("Rudolf"); u3.setLastname("Druhy");
 		this.listOfUsers.add(u3);
+		*/
 		
 		System.out.println("....Konec inicializace\n\n");
 	}
